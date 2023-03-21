@@ -7,6 +7,11 @@ emp_job varchar(50) not null,
 emp_dept varchar(50) not null,
 emp_salary long not null
 );
+create table dept(
+dept_id varchar(50) primary key,
+dept_no int not null,
+de
+); 
 insert into emp (emp_id,emp_name,emp_job,emp_dept,emp_salary) value 
 		(11,"Uzair","Manager","SW","20,000"),
        (12,"Lahad","HR","CS","18,000"),
